@@ -8,11 +8,10 @@ return [
 
     'queue' => 'default',
 
-    'drivers' => [
-        's3' => 's3',
-        'local' => 'public',
-        'temp_uploader' => 'local',
-    ],
+    /**
+     * Время истечения временных ссылок на файлы в минутах
+     */
+    'temporary_url_expiration' => 60,
 
     'services' => [
         \Sn1KeRs385\FileUploader\App\Services\IUploaderService::class => \Sn1KeRs385\FileUploader\App\Services\UploaderService::class,
