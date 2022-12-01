@@ -7,7 +7,7 @@ use Illuminate\Http\Response;
 class CodeNotFoundException extends AbstractApiException
 {
     protected int $errorCode = Response::HTTP_BAD_REQUEST;
-    protected string $errorSystemMessage = 'CODE_NOT_FOUND';
+    protected string $errorMessageCode = 'CODE_NOT_FOUND';
 
     public function __construct()
     {
