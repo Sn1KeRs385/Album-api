@@ -15,7 +15,7 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "league/flysystem-aws-s3-v3": "^3.10",
-        "sn1kers385/laravel-file-uploader": "^1.0",
+        "sn1kers385/laravel-file-uploader": "^1.1",
         "spatie/data-transfer-object": "^3.9"
     },
     "require-dev": {
